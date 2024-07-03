@@ -18,7 +18,8 @@ Use Appetize.io to provide a virtualized demonstration of the release version of
 
 
 ## Screenshots
-![Shopping App](https://github.com/Wadonderah/SHOPPINGAPP/assets/149188641/30d4fc4b-d9ae-438d-8c42-3a3f90e241b3)
+![Shopping App](https://github.com/Wadonderah/SHOPPINGAPP/assets/149188641/3af0deb8-1e0f-4052-9568-dc5d88eb7514)
+                              
 
 
 
@@ -26,7 +27,7 @@ Use Appetize.io to provide a virtualized demonstration of the release version of
 
 
 
-![Shopping App1](https://github.com/Wadonderah/SHOPPINGAPP/assets/149188641/105ee730-81f4-498b-b4ed-9ca6d9486133)
+![shopping app 1](https://github.com/Wadonderah/SHOPPINGAPP/assets/149188641/f338eda0-7f76-4a73-9983-14a938c85fc4)
 
 
 
@@ -35,7 +36,8 @@ Use Appetize.io to provide a virtualized demonstration of the release version of
 
 
 
-![Shopping APP2](https://github.com/Wadonderah/SHOPPINGAPP/assets/149188641/6f3b71d4-7dbd-4c66-84d1-1eb063373b9e)
+![shopping app 2](https://github.com/Wadonderah/SHOPPINGAPP/assets/149188641/03a6f194-063a-4f09-9de3-8fb98778393c)
+
 
 
 
