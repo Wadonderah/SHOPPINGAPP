@@ -1,17 +1,19 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
-import 'product.dart';
-import 'order_successful.dart';
+import 'package:shoppingapp/Features/product.dart';
+import 'package:shoppingapp/Features/order_successful.dart';
 
 class Checkout extends StatelessWidget {
   final Product product;
 
-  const Checkout({Key? key, required this.product}) : super(key: key);
+  const Checkout({required this.product});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Checkout'),
+        title: Text('Checkout'),
       ),
       body: Center(
         child: Column(
@@ -19,14 +21,14 @@ class Checkout extends StatelessWidget {
           children: <Widget>[
             Text('You are buying: ${product.name}'),
             Text('Total: ${product.price} KES'),
-            const SizedBox(height: 20),
+            SizedBox(height: 20),
             ElevatedButton(
-              child: const Text('Confirm Purchase'),
+              child: Text('Confirm Purchase'),
               onPressed: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const OrderSuccessful(),
+                    builder: (context) => OrderSuccessful(),
                   ),
                 );
               },

@@ -1,23 +1,24 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
-import 'product.dart';
-import 'checkout.dart';
+import 'package:shoppingapp/Features/product.dart';
 
 class ProductList extends StatelessWidget {
-  const ProductList({Key? key}) : super(key: key);
-
-  final List<Product> products = const [
+  final List<Product> products = [
     Product(name: 'Tomatoes', price: 50),
     Product(name: 'Onions', price: 30),
     Product(name: 'Milk', price: 60),
-    Product(name: 'Bread', price: 45),
-    Product(name: 'Sugar', price: 100),
   ];
+
+  final Function(Product) onAddToCart;
+
+  ProductList({required this.onAddToCart});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Shopping App'),
+        title: Text('Simple Shopping App'),
       ),
       body: ListView.builder(
         itemCount: products.length,
@@ -27,14 +28,9 @@ class ProductList extends StatelessWidget {
             title: Text(product.name),
             subtitle: Text('${product.price} KES'),
             trailing: ElevatedButton(
-              child: const Text('Buy'),
+              child: Text('Add to Cart'),
               onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => Checkout(product: product),
-                  ),
-                );
+                onAddToCart(product);
               },
             ),
           );
@@ -43,3 +39,9 @@ class ProductList extends StatelessWidget {
     );
   }
 }
+
+
+
+
+
+
