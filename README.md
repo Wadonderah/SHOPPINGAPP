@@ -22,7 +22,8 @@ Use Appetize.io to provide a virtualized demonstration of the release version of
                             
                             
                             
-![Shopping App](https://github.com/Wadonderah/SHOPPINGAPP/assets/149188641/af012235-039e-4a0c-8ae5-0e91969dedd6)
+![shopping app](https://github.com/Wadonderah/SHOPPINGAPP/assets/149188641/fde67eb9-609a-4f25-84ed-f76f9ac35d42)
+
 
 
 
