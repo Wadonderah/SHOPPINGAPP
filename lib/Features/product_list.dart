@@ -1,5 +1,3 @@
-// ignore_for_file: prefer_const_constructors
-
 import 'package:flutter/material.dart';
 import 'package:shoppingapp/Features/product.dart';
 
@@ -18,7 +16,7 @@ class ProductList extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Simple Shopping App'),
+        title: const Text('Simple Shopping App'),
       ),
       body: ListView.builder(
         itemCount: products.length,
@@ -28,7 +26,7 @@ class ProductList extends StatelessWidget {
             title: Text(product.name),
             subtitle: Text('${product.price} KES'),
             trailing: ElevatedButton(
-              child: Text('Add to Cart'),
+              child: const Text('Add to Cart'),
               onPressed: () {
                 onAddToCart(product);
               },
@@ -39,7 +37,6 @@ class ProductList extends StatelessWidget {
     );
   }
 }
-
 
 
 

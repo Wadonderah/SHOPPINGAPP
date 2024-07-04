@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_final_fields, library_private_types_in_public_api
+// ignore_for_file: library_private_types_in_public_api, prefer_final_fields
 
 import 'package:flutter/material.dart';
 import 'package:shoppingapp/Features/cart.dart';
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Shopping App',
+      title: 'Simple Shopping App',
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
@@ -44,10 +44,16 @@ class _HomeScreenState extends State<HomeScreen> {
     });
   }
 
+  void _removeFromCart(Product product) {
+    setState(() {
+      _cartItems.remove(product);
+    });
+  }
+
   List<Widget> _pages() {
     return [
       ProductList(onAddToCart: _addToCart),
-      Cart(cartItems: _cartItems),
+      Cart(cartItems: _cartItems, onRemoveFromCart: _removeFromCart),
     ];
   }
 

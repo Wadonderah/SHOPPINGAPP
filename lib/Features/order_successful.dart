@@ -5,7 +5,7 @@ class OrderSuccessful extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-      title: const Text('Order Successful'),
+        title: const Text('Order Successful'),
       ),
       body: Center(
         child: Column(
