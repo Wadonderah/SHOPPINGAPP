@@ -10,11 +10,11 @@ This is a simple Flutter shopping app for buying groceries. The prices are liste
 
 ## APK Download
 
-You can download the APK for the Shopping App [here](https://appetize.io/app/android/com.example.shoppingapp?device=pixel7&osVersion=13.0).
+You can download the APK for the Shopping App [here](https://appetize.io/app/b_mqfudtedf5ddydnwisq2gq2kzi)
 
 ## Virtualized Demonstration
 
-Use Appetize.io to provide a virtualized demonstration of the release version of your app and ensure it doesn't crash when launching the app. You can access the virtualized demo [here](https://appetize.io/app/android/com.example.shoppingapp?device=pixel7&osVersion=13.0 ).
+Use Appetize.io to provide a virtualized demonstration of the release version of your app and ensure it doesn't crash when launching the app. You can access the virtualized demo [here](https://appetize.io/app/b_mqfudtedf5ddydnwisq2gq2kzi).
 
 
 ## Screenshots
