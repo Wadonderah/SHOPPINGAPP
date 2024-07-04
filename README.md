@@ -10,15 +10,16 @@ This is a simple Flutter shopping app for buying groceries. The prices are liste
 
 ## APK Download
 
-You can download the APK for the Shopping App [here](https://appetize.io/app/tls4x4n6qcbko2vl3x6h47v2ne?device=pixel7&osVersion=13.0).
+You can download the APK for the Shopping App [here](https://appetize.io/app/b_mqfudtedf5ddydnwisq2gq2kzi)
 
 ## Virtualized Demonstration
 
-Use Appetize.io to provide a virtualized demonstration of the release version of your app and ensure it doesn't crash when launching the app. You can access the virtualized demo [here](https://appetize.io/app/tls4x4n6qcbko2vl3x6h47v2ne?device=pixel7&osVersion=13.0).
+Use Appetize.io to provide a virtualized demonstration of the release version of your app and ensure it doesn't crash when launching the app. You can access the virtualized demo [here](https://appetize.io/app/b_mqfudtedf5ddydnwisq2gq2kzi).
 
 
 ## Screenshots
-![Shopping App](https://github.com/Wadonderah/SHOPPINGAPP/assets/149188641/30d4fc4b-d9ae-438d-8c42-3a3f90e241b3)
+![Shopping App](https://github.com/Wadonderah/SHOPPINGAPP/assets/149188641/3af0deb8-1e0f-4052-9568-dc5d88eb7514)
+                              
 
 
 
@@ -26,7 +27,7 @@ Use Appetize.io to provide a virtualized demonstration of the release version of
 
 
 
-![Shopping App1](https://github.com/Wadonderah/SHOPPINGAPP/assets/149188641/105ee730-81f4-498b-b4ed-9ca6d9486133)
+![shopping app 1](https://github.com/Wadonderah/SHOPPINGAPP/assets/149188641/f338eda0-7f76-4a73-9983-14a938c85fc4)
 
 
 
@@ -35,7 +36,8 @@ Use Appetize.io to provide a virtualized demonstration of the release version of
 
 
 
-![Shopping APP2](https://github.com/Wadonderah/SHOPPINGAPP/assets/149188641/6f3b71d4-7dbd-4c66-84d1-1eb063373b9e)
+![shopping app 2](https://github.com/Wadonderah/SHOPPINGAPP/assets/149188641/03a6f194-063a-4f09-9de3-8fb98778393c)
+
 
 
 
